@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { MdEmail, MdLock, MdPerson } from 'react-icons-md';
+import { MdEmail, MdLock, MdPerson } from 'react-icons/md';
 import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
 import { Input } from "../../components/Input";
@@ -49,7 +49,7 @@ const Cadastro = () => {
                     <Wrapper>
                         <TitleCadastro>Comece agora grátis</TitleCadastro>
                         <SubtitleCadastro>Crie sua conta e make the change._</SubtitleCadastro>
-                        <form>
+                        <form onSubmit={handleSubmit(onSubmit)}>
                             <Input placeholder="Nome Completo" leftIcon={<MdPerson />} name="nome" control={control} />
                             {errors.nome && <span>Nome é obrigatório</span>}
                             <Input placeholder="E-mail" leftIcon={<MdEmail />} name="email" control={control} />

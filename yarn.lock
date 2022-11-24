@@ -7489,18 +7489,6 @@ react-hook-form@^7.39.5:
   resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.39.5.tgz#a4272b60288ef5e1bb42bbb6ba3b36d243ab2879"
   integrity sha512-OE0HKyz5IPc6svN2wd+e+evidZrw4O4WZWAWYzQVZuHi+hYnHFSLnxOq0ddjbdmaLIsLHut/ab7j72y2QT3+KA==
 
-react-icon-base@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-icon-base/-/react-icon-base-1.0.0.tgz#5692d495a7cf340fcf664b8c4d4a369c56467ea5"
-  integrity sha512-rLncZqco21WQjYjQs7YApSxt9wGMu5b41wWJ6X2pbqWNiR/XDY8GubwXg2a/dfnhrZCSKel3HmqegzvH8FkNkA==
-
-react-icons-md@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/react-icons-md/-/react-icons-md-1.1.0.tgz#7a9b02fe1c9b6dc6b4f93bd5cc5dc2c13a6047a9"
-  integrity sha512-arpt+5aOIvnvzKxHF90KAwYVLY03xxN2ieb+5+rQtAUGlYmxCYjxiB/cu2X8KpHqczL2mzBC69hhj4fe1DjsmA==
-  dependencies:
-    react-icon-base "1.0.0"
-
 react-icons@^4.4.0:
   version "4.6.0"
   resolved "https://registry.npmjs.org/react-icons/-/react-icons-4.6.0.tgz"
